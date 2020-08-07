@@ -1,0 +1,24 @@
+# Local Netlify folder
+.netlify
+
+# dependencies
+platform/node_modules
+platform/.pnp
+platform/.pnp.js
+
+# testing
+platform/coverage
+
+# production
+platform/build
+
+# misc
+platform/.DS_Store
+platform/.env.local
+platform/.env.development.local
+platform/.env.test.local
+platform/.env.production.local
+
+platform/npm-debug.log*
+platform/yarn-debug.log*
+platform/yarn-error.log*
