@@ -11,7 +11,7 @@ function App() {
 
           <Row className="d-flex align-self-start my-5">
             <Col md="12">
-              <Button className="btn_of_index">
+              <Button className="btn btn-magick btn-lg btn3d">
                 Portfolio
               </Button>
             </Col>
@@ -19,11 +19,11 @@ function App() {
 
           <Row>     
             <Col md="12" className="d-flex justify-content-center align-items-center">   
-              <Button className="btn_of_index mr-5">
+              <Button className="btn btn-magick btn-lg btn3d mr-5">
                 Vídeos
               </Button>
               <ProfilePictureCard />
-              <Button className="btn_of_index ml-5">
+              <Button className="btn btn-magick btn-lg btn3d ml-5">
                 Contato
               </Button>
             </Col>
@@ -31,7 +31,7 @@ function App() {
 
           <Row className="d-flex align-self-start my-5">
             <Col md="12">
-              <Button className="btn_of_index">
+              <Button className="btn btn-magick btn-lg btn3d">
                 Sobre
               </Button>
             </Col>

@@ -4,5 +4,12 @@
 }
 
 .social__media__item {
-    font-size: 11px;
+    font-size: 16px;
+    display: inline-block !important;
+    margin: 4px;
+}
+
+.social__media__images {
+    height: 24px;
+    width: 24px;;
 }

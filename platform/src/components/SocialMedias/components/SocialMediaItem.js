@@ -3,9 +3,10 @@ import "./SocialMediaItem.css";
 
 export default function index(props) {
     return (
-            <span className="social__media__item">
-                <img src={props.SocialMediaIcon} />
-                {props.SocialMediaName}
-            </span> 
+            <div className="social__media__item">
+                <a href={props.SocialMediaLink} target="_blank">
+                    <img src={props.SocialMediaIcon} className="social__media__images" />
+                </a>
+            </div> 
     )
 }

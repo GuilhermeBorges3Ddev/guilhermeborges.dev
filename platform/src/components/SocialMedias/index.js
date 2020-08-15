@@ -9,10 +9,10 @@ import linkedin from "../../assets/icons/icofinder_linkedin.png";
 export default function index() {
     return (
         <p className="social__media__itens__area">
-            <SocialMediaItem SocialMediaIcon={gmail} SocialMediaName="gsilvaborges@gmail.com"/>
-            <SocialMediaItem SocialMediaIcon={youtube} SocialMediaName="youtube.com/coderclub"/>
-            <SocialMediaItem SocialMediaIcon={instagram} SocialMediaName="@coderclubofficial"/>
-            <SocialMediaItem SocialMediaIcon={linkedin} SocialMediaName="guilherme_borges"/>
+            <SocialMediaItem SocialMediaIcon={gmail} SocialMediaLink="https://mail.google.com/mail/#search/rfc822msgid%3Aabcdefg%40gsilvaborges@gmail.com"/>
+            <SocialMediaItem SocialMediaIcon={youtube} SocialMediaLink="youtube.com/coderclub"/>
+            <SocialMediaItem SocialMediaIcon={instagram} SocialMediaLink="@coderclubofficial"/>
+            <SocialMediaItem SocialMediaIcon={linkedin} SocialMediaLink="https://www.linkedin.com/in/guilherme-borges-546158150/"/>
         </p>
     )
 }
