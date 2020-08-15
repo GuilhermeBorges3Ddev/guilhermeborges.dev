@@ -10,8 +10,8 @@ export default function index() {
     return (
         <p className="social__media__itens__area">
             <SocialMediaItem SocialMediaIcon={gmail} SocialMediaLink="https://mail.google.com/mail/#search/rfc822msgid%3Aabcdefg%40gsilvaborges@gmail.com"/>
-            <SocialMediaItem SocialMediaIcon={youtube} SocialMediaLink="youtube.com/coderclub"/>
-            <SocialMediaItem SocialMediaIcon={instagram} SocialMediaLink="@coderclubofficial"/>
+            <SocialMediaItem SocialMediaIcon={youtube} SocialMediaLink="https://www.youtube.com/channel/UCMHtsITvjsvOoA7f2gNLL0Q?view_as=subscriber"/>
+            <SocialMediaItem SocialMediaIcon={instagram} SocialMediaLink="https://www.instagram.com/coderclubofficial/"/>
             <SocialMediaItem SocialMediaIcon={linkedin} SocialMediaLink="https://www.linkedin.com/in/guilherme-borges-546158150/"/>
         </p>
     )
