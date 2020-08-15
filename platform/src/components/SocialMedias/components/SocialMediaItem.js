@@ -1,10 +1,11 @@
 import React from 'react';
 import "./SocialMediaItem.css";
 
-export default function SocialMediaItem() {
+export default function index(props) {
     return (
             <span className="social__media__item">
-                primeiro
+                <img src={props.SocialMediaIcon} />
+                {props.SocialMediaName}
             </span> 
     )
 }
