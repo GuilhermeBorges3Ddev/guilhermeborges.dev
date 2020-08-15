@@ -1,7 +1,12 @@
 import React from 'react';
 import { Card, CardBody, CardTitle, CardImg } from 'reactstrap';
+
+//Internal style and profile picture
 import "./ProfilePictureCard.css";
 import profilePic from "../../assets/images/profilePic.png"
+
+//Social Medias component
+import SocialMedias from "../SocialMedias/index";
 
 export default function index() {
     return (
@@ -11,7 +16,9 @@ export default function index() {
                     <CardBody>
                         <CardTitle className="profile__media">
                             <p>Mídias Sociais</p>
-                            <p>primeiro</p>
+                            <SocialMedias 
+                            
+                            />
                         </CardTitle> 
                     </CardBody>
                 </Card>
