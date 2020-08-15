@@ -13,15 +13,19 @@ function App() {
               <Button>Portfolio</Button>
             </Col>
           </Row>
-          <Row>
-            <Col md="4">
-              <Button>Vídeos</Button>
-            </Col>
-            <Col md="4">
+          <Row>     
+            <Col md="12">
+              
+              <Button className="mr-4">
+                Vídeos
+              </Button>
+              
               <ProfilePic />
-            </Col>
-            <Col md="4">
-              <Button>Contato</Button>
+              
+              <Button className="ml-4">
+                Contato
+              </Button>
+            
             </Col>
           </Row>
           <Row className="d-flex align-self-start my-5">

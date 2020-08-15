@@ -1,17 +1,13 @@
 import React from 'react';
-import { Card, CardImg } from 'reactstrap';
+import profilePic from "../../assets/images/profilePic.png"
 
 export default function index() {
     return (
-        <div>
-            <Card>
-                <CardImg 
-                    width="70px" 
-                    height="60px" 
-                    src="../../assets/images/profilePic.png" 
-                    alt="image" 
+            <img
+                    width="140px" 
+                    height="125px" 
+                    src={profilePic} 
+                    alt="image-error" 
             />
-            </Card>
-    </div>
     )
 }
