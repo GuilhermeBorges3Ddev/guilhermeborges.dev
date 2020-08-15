@@ -1,0 +1,15 @@
+.profile__pic {
+    border-color: transparent;
+    border-width: 0;
+}
+
+.profile__pic__card {
+    max-width: 145px;
+    max-height: 210px;
+    background-color: lightsteelblue;
+}
+
+.profile__media {
+    font-size: 12px;
+    font-weight: 700;
+}

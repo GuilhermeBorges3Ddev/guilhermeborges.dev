@@ -22,3 +22,18 @@
   color: #61dafb;
 }
 
+.btn_of_index {
+  width: 100px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  transition: filter 0.2s;
+}
+
+.btn_of_index:hover {
+  filter: brightness(90%);
+}
+
+.btn_of_index:active {
+  border-color: lightsteelblue !important;
+}
